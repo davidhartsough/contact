@@ -73,12 +73,17 @@ main {
 	color: hsla(208, 16%, 96%, 0.96);
 }
 h1 {
+	text-align: center;
 	font-weight: 300;
 	font-size: 3rem;
 	margin: 0;
 }
 a {
+	display: block;
 	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background-color: transparent;
 }
 h1 a:hover,
 h1 a:focus {
